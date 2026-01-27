@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Личный кабинет — Russian LadaHub</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header">
+      <div class="header_logo">
+        <img src="../assets/images/logo.png" alt="logo">
+      </div>
+      <div class="header_sections">
+        <a href="">Корзина</a>
+        <a href="">Каталог</a>
+        <a href="">Контакты</a>
+        <a href="">Кабинет</a>
+      </div>
+      <div class="header_authorization">
+        <a href="">Вход</a>
+      </div>
+      <div class="burger-menu">
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+        <span class="burger-line"></span>
+      </div>
+
+      <!-- Мобильное меню (скрыто по умолчанию) -->
+      <div class="mobile_menu">
+        <div class="mobile_menu_content">
+          <a href="">Корзина</a>
+          <a href="">Каталог</a>
+          <a href="">Контакты</a>
+          <a href="">Кабинет</a>
+          <a href="">Вход</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="account">
+    <div class="account_info">
+      <h1>КАБИНЕТ</h1>
+      <div class="container">
+        <aside class="sidebar">
+          <div class="user-name">
+            <h2>Эрик Давидович</h2>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#" class="active"><img src="../assets/images/ion_home.png" alt="">Главная</a></li>
+            <li><a href="#"><img src="../assets/images/mynaui_package-solid.png" alt="">Мои заказы</a></li>
+            <li><a href="#"><img src="../assets/images/tabler_message.png" alt="">Обращения</a></li>
+            <li><a href="#"><img src="../assets/images/material-symbols-light_settings-rounded.png" alt="">Настройки</a></li>
+            <li><a href="#"><img src="../assets/images/basil_document-outline.png" alt="">Документы</a></li>
+            <li><a href="#"><img src="../assets/images/bxs_basket.png" alt="">Корзина</a></li>
+            <li><a href="#"><img src="../assets/images/solar_exit-linear.png" alt="">Выйти</a></li>
+          </ul>
+        </aside>
+
+        <main class="main-content">
+
+          <section class="welcome-card">
+            <div class="welcome-text">
+              <h2>Добро пожаловать, Эрик Давидович!</h2>
+              <p>Ваш персональный кабинет Russian LadaHub</p>
+            </div>
+            <div class="bonus-balance">
+              <h3>1500</h3>
+              <span>Бонусных баллов</span>
+            </div>
+          </section>
+
+
+          <section class="orders-section">
+            <div class="section-header">
+              <h2>Последние заказы</h2>
+              <a href="#" class="btn">Все заказы</a>
+            </div>
+            <table class="orders-table">
+              <thead>
+                <tr>
+                  <th>№ Заказа</th>
+                  <th>Дата</th>
+                  <th>Сумма</th>
+                  <th>Статус</th>
+                  <th>Действия</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><span class="order-id">#VAZ-2026-0001</span></td>
+                  <td>15.01.2026</td>
+                  <td>1500 ₽</td>
+                  <td><span class="status in-transit">В пути</span></td>
+                  <td><a href="#" class="action-link">Подробнее</a></td>
+                </tr>
+                <tr>
+                  <td><span class="order-id">#VAZ-2026-0002</span></td>
+                  <td>14.01.2026</td>
+                  <td>2750 ₽</td>
+                  <td><span class="status assembling">Сборка</span></td>
+                  <td><a href="#" class="action-link">Отследить</a></td>
+                </tr>
+                <tr>
+                  <td><span class="order-id">#VAZ-2026-0003</span></td>
+                  <td>10.01.2026</td>
+                  <td>3700 ₽</td>
+                  <td><span class="status delivered">Доставлен</span></td>
+                  <td><a href="#" class="action-link">Повторить</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section class="car-section">
+            <div class="car-header">
+              <h2>Мой автомобиль</h2>
+            </div>
+            <div class="car-info">
+              <div class="car-description">
+                <div class="car-brand">VESTA</div>
+                <div class="car-details">
+                  <div class="car-actions">
+                    <div class="car-model">LADA VESTA SW Cross 2022</div>
+                    <a href="#" class="btn">Изменить</a>
+                  </div>
+                  <div class="car-specs">
+                    VIN: XTA219050K1234567 &nbsp;&nbsp; Пробег: 15 430 км &nbsp;&nbsp; Регион: Москва
+                  </div>
+                </div>
+              </div>
+              <div class="car-catalog">
+                <a href="#" class="btn">Каталог</a>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <footer>
+    <div class="footer">
+      <div class="footer_info">
+        <div class="footer_navigation">
+          <p>Навигация</p>
+          <div class="footer_navigation-list">
+            <div class="footer_catalog"><a href="">Главная</a></div>
+            <div class="footer_catalog"><a href="">Корзина</a></div>
+            <div class="footer_catalog"><a href="">Каталог</a></div>
+            <div class="footer_catalog"><a href="">Контакты</a></div>
+            <div class="footer_catalog"><a href="">Кабинет</a></div>
+          </div>
+        </div>
+        <div class="footer_contacts_networks">
+          <div class="footer_contacts">
+            <p>Контактные данные</p>
+            <div class="footer_contacts-contact">
+              <div class="footer_contact-number"><a>+7 (905)-188-99-73</a></div>
+              <div class="footer_contact-email"><a>autovazlada@mail.ru</a></div>
+            </div>
+          </div>
+          <div class="footer_networks">
+            <p>Мы в соц. сетях</p>
+            <div class="footer_networks-network">
+              <img class="footer_networks-vk" src="../assets/images/vk.png" alt="vk">
+              <img class="footer_networks-yt" src="../assets/images/youtube.png" alt="youtube">
+              <img class="footer_networks-tg" src="../assets/images/telegram.png" alt="telegram">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_signature">
+        <p>© LadaHub | Все права не защищены, мы ни за что не несем ответственность.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
